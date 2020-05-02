@@ -50,8 +50,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Interface\IBLBooking.cs" />
+    <Compile Include="Interface\IBLHotel.cs" />
+    <Compile Include="Interface\IBLRoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BookingBL.cs" />
+    <Compile Include="Services\HotelBL.cs" />
+    <Compile Include="Services\RoomBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -66,5 +71,6 @@
       <Name>HotelManagement_Entities</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

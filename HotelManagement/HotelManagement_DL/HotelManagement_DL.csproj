@@ -50,8 +50,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Interface\IDLBooking.cs" />
+    <Compile Include="Interface\IDLHotel.cs" />
+    <Compile Include="Interface\IDLRoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BookingDL.cs" />
+    <Compile Include="Services\HotelDL.cs" />
+    <Compile Include="Services\RoomDL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

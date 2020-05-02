@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HotelManagement_BL
+namespace HotelManagement_BL.Interface
 {
-    public class Class1
+    class IBLHotel
     {
     }
 }
