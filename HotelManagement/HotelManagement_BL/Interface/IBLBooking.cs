@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace HotelManagement_BL.Interface
 {
-    class IBLBooking
+    public interface IBLBooking
     {
+
     }
 }

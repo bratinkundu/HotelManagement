@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelManagement_BL.Services
 {
-    class BookingBL
+    public class BookingBL
     {
     }
 }

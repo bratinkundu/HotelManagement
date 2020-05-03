@@ -1,0 +1,17 @@
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\HotelManagement_DL.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\HotelManagement_DL.pdb
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\HotelManagement_Entities.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\Unity.Abstractions.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\Unity.Container.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\EntityFramework.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\HotelManagement_Entities.pdb
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\HotelManagement_Entities.dll.config
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\Unity.Abstractions.pdb
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\Unity.Container.pdb
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\bin\Debug\EntityFramework.xml
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\obj\Debug\HotelManagement_DL.csprojAssemblyReference.cache
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\obj\Debug\HotelManagement_DL.csproj.CopyComplete
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\obj\Debug\HotelManagement_DL.dll
+F:\Industry training\HotelManagement\HotelManagement\HotelManagement_DL\obj\Debug\HotelManagement_DL.pdb
