@@ -13,7 +13,7 @@ namespace HotelManagement_BL.Interface
         List<HotelViewModel> GetHotelByCity(string city);
         List<HotelViewModel> GetHotelByPincode(int pincode);
         HotelViewModel GetHotelById(int id);
-        bool AddHotel();
+        bool AddHotel(HotelViewModel hotel);
         bool DeleteHotel(int id);
     }
 }

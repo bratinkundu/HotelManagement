@@ -1,5 +1,6 @@
 ﻿using HotelManagement_BL.Interface;
 using HotelManagement_Entities.ViewModel;
+using HotelManagement_Entities.Models;
 using System;
 using HotelManagement_DL.Services;
 using System.Collections.Generic;
@@ -17,34 +18,58 @@ namespace HotelManagement_BL.Services
             hoteldl = _hoteldl;
         }
 
-        public bool AddHotel()
+        public bool AddHotel(HotelViewModel hotel)
         {
-            throw new NotImplementedException();
+            return hoteldl.AddHotel(Mapper.Map<HotelViewModel, Hotel>(hotel));
         }
 
         public bool DeleteHotel(int id)
         {
-            throw new NotImplementedException();
+            return hoteldl.DeleteHotel(id);
         }
 
         public List<HotelViewModel> GetAllHotels()
         {
-            throw new NotImplementedException();
+            List<Hotel> hoteldata = hoteldl.GetAllHotels();
+            List<HotelViewModel> hotelvm = new List<HotelViewModel>();
+
+            foreach (Hotel hotel in hoteldata)
+            {
+                hotelvm.Add(Mapper.Map<Hotel, HotelViewModel>(hotel));
+            }
+
+            return hotelvm;
         }
 
         public List<HotelViewModel> GetHotelByCity(string city)
         {
-            throw new NotImplementedException();
+            List<Hotel> hoteldata = hoteldl.GetHotelByCity(city);
+            List<HotelViewModel> hotelvm = new List<HotelViewModel>();
+            
+            foreach(Hotel hotel in hoteldata)
+            {
+                hotelvm.Add(Mapper.Map<Hotel, HotelViewModel>(hotel));
+            }
+
+            return hotelvm; 
         }
 
         public HotelViewModel GetHotelById(int id)
         {
-            throw new NotImplementedException();
+            return Mapper.Map<Hotel, HotelViewModel>(hoteldl.GetHotelById(id));
         }
 
         public List<HotelViewModel> GetHotelByPincode(int pincode)
         {
-            throw new NotImplementedException();
+            List<Hotel> hoteldata = hoteldl.GetHotelByPincode(pincode);
+            List<HotelViewModel> hotelvm = new List<HotelViewModel>();
+
+            foreach (Hotel hotel in hoteldata)
+            {
+                hotelvm.Add(Mapper.Map<Hotel, HotelViewModel>(hotel));
+            }
+
+            return hotelvm;
         }
     }
 }
