@@ -12,7 +12,7 @@ namespace HotelManagement_BL.Interface
     {
         List<BookingViewModel> GetBookings();
         BookingViewModel GetBooking(int id);
-        List<BookingViewModel> GetBookings(DateTime date, int? roomid, int? hotelid);
+        List<BookingViewModel> GetBookings(Nullable<DateTime> date, int? roomid, int? hotelid);
         bool AddBooking(BookingViewModel booking);
         bool UpdateBooking(BookingViewModel booking);
         bool DeleteBooking(int id);

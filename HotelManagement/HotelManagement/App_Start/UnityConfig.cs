@@ -17,6 +17,8 @@ namespace HotelManagement
             // register all your components with the container here
             // it is NOT necessary to register your controllers
             container.RegisterType<IBLHotel, HotelBL>();
+            container.RegisterType<IBLBooking, BookingBL>();
+            container.RegisterType<IBLRoom, RoomBL>();
             GlobalConfiguration.Configuration.DependencyResolver = new UnityDependencyResolver(container);
             
         }
