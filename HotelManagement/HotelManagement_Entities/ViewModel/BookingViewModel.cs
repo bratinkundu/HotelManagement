@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HotelManagement_Entities.ViewModel
 {
-    class BookingViewModel
+    public class BookingViewModel
     {
         public int BookingId { get; set; }
         public Nullable<int> RoomId { get; set; }
